@@ -2,4 +2,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name">Frames</string>
     <string name="license_valid_snack">@string/license_valid_content</string>
+    <string name="ad_space">Ad Space</string>
 </resources>

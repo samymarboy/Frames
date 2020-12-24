@@ -5,6 +5,7 @@ import android.content.Intent
 import android.graphics.Bitmap
 import android.os.Bundle
 import android.view.View
+import android.widget.LinearLayout
 import androidx.core.app.ActivityOptionsCompat
 import androidx.core.graphics.drawable.toBitmap
 import androidx.recyclerview.widget.GridLayoutManager

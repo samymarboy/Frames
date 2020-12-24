@@ -18,6 +18,7 @@ import dev.jahir.frames.extensions.context.toast
 import dev.jahir.frames.extensions.frames.filenameAndExtension
 import dev.jahir.frames.extensions.resources.createIfDidNotExist
 import dev.jahir.frames.extensions.resources.hasContent
+import dev.jahir.frames.ui.GInterstitialLoader
 import kotlinx.coroutines.coroutineScope
 import java.io.File
 
@@ -61,6 +62,7 @@ class WallpaperDownloader(context: Context, params: WorkerParameters) :
         thread.start()
         return downloadId
     }
+
 
     override suspend fun doWork(): Result = coroutineScope {
         val url: String = inputData.getString(DOWNLOAD_URL_KEY) ?: ""

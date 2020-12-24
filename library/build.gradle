@@ -76,6 +76,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     api Libs.dependencies
     kapt Libs.kaptDependencies
+    implementation 'com.google.android.gms:play-services-ads:19.6.0'
 }
 
 apply from: '../lib-artifacts.gradle'

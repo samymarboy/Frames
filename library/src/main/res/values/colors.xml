@@ -69,4 +69,6 @@
     <color name="amoledThemeSnackbarTextColor">#de000000</color>
     <color name="amoledThemeSnackbarButtonColor">#3c9983</color>
 
+    <color name="black_20">#33000000</color>
+
 </resources>

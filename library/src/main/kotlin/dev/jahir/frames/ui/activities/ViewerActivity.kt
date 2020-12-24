@@ -56,6 +56,8 @@ import dev.jahir.frames.extensions.views.setPaddingLeft
 import dev.jahir.frames.extensions.views.setPaddingRight
 import dev.jahir.frames.extensions.views.tint
 import dev.jahir.frames.extensions.views.visibleIf
+import dev.jahir.frames.ui.GBannerLoader
+import dev.jahir.frames.ui.GInterstitialLoader
 import dev.jahir.frames.ui.activities.base.BaseWallpaperApplierActivity
 import dev.jahir.frames.ui.fragments.WallpapersFragment
 import dev.jahir.frames.ui.fragments.viewer.DetailsFragment
@@ -347,6 +349,10 @@ open class ViewerActivity : BaseWallpaperApplierActivity<Preferences>() {
                 positiveButton(android.R.string.ok) { it.dismiss() }
             }
             downloadBlockedDialog?.show()
+        }
+        if (GBannerLoader.isPremiumBoolean) {
+            val gInterstitialLoader = GInterstitialLoader(this)
+            gInterstitialLoader.showFullscreenAds()
         }
     }
 

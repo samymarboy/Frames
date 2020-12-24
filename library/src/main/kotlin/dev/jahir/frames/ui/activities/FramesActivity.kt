@@ -3,6 +3,8 @@ package dev.jahir.frames.ui.activities
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
+import android.widget.LinearLayout
 import androidx.annotation.LayoutRes
 import androidx.fragment.app.Fragment
 import dev.jahir.frames.R
@@ -13,6 +15,7 @@ import dev.jahir.frames.extensions.context.drawable
 import dev.jahir.frames.extensions.context.getAppName
 import dev.jahir.frames.extensions.context.string
 import dev.jahir.frames.extensions.resources.hasContent
+import dev.jahir.frames.ui.GBannerLoader
 import dev.jahir.frames.ui.activities.base.BaseBillingActivity
 import dev.jahir.frames.ui.fragments.CollectionsFragment
 import dev.jahir.frames.ui.fragments.WallpapersFragment
@@ -57,7 +60,22 @@ abstract class FramesActivity : BaseBillingActivity<Preferences>() {
         wallpapersViewModel.observeWallpapers(this) { wallpapersFragment?.updateItems(ArrayList(it)) }
         wallpapersViewModel.observeCollections(this, ::handleCollectionsUpdate)
         loadWallpapersData(true)
+        initGBanner()
     }
+
+    open fun initGBanner(): View {
+        val bannerViewWrapper: View = findViewById(R.id.banner_view_wrapper)
+        val adView: LinearLayout = findViewById(R.id.adView)
+        if (bannerViewWrapper == null || adView == null) return bannerViewWrapper
+        if (GBannerLoader.isPremiumBoolean) {
+            bannerViewWrapper.visibility = View.GONE
+        } else {
+            val bannerLoader = GBannerLoader(this, bannerViewWrapper)
+            bannerLoader.showBanner(adView)
+        }
+        return bannerViewWrapper
+    }
+
 
     override fun onBackPressed() {
         if (currentItemId != initialItemId) bottomNavigation?.selectedItemId = initialItemId

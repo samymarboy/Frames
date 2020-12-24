@@ -1,0 +1,114 @@
+Index: gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Tue Mar 17 11:14:49 COT 2020\r\ndistributionBase=GRADLE_USER_HOME\r\ndistributionPath=wrapper/dists\r\nzipStoreBase=GRADLE_USER_HOME\r\nzipStorePath=wrapper/dists\r\ndistributionUrl=https\\://services.gradle.org/distributions/gradle-6.5-bin.zip\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1252
+===================================================================
+--- gradle/wrapper/gradle-wrapper.properties	(revision 6d577cfaf7ddd07ad936a905cd3fa71cbf7538a0)
++++ gradle/wrapper/gradle-wrapper.properties	(date 1608622469469)
+@@ -1,6 +1,6 @@
+-#Tue Mar 17 11:14:49 COT 2020
++#Tue Dec 22 13:02:33 IST 2020
+ distributionBase=GRADLE_USER_HOME
+ distributionPath=wrapper/dists
+ zipStoreBase=GRADLE_USER_HOME
+ zipStorePath=wrapper/dists
+-distributionUrl=https\://services.gradle.org/distributions/gradle-6.5-bin.zip
++distributionUrl=https\://services.gradle.org/distributions/gradle-6.5-all.zip
+Index: .idea/codeStyles/Project.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"ProjectCodeStyleConfiguration\">\r\n  <code_scheme name=\"Project\" version=\"173\">\r\n    <JetCodeStyleSettings>\r\n      <option name=\"PACKAGES_TO_USE_STAR_IMPORTS\">\r\n        <value>\r\n          <package name=\"java.util\" alias=\"false\" withSubpackages=\"false\" />\r\n          <package name=\"kotlinx.android.synthetic\" alias=\"false\" withSubpackages=\"true\" />\r\n          <package name=\"io.ktor\" alias=\"false\" withSubpackages=\"true\" />\r\n        </value>\r\n      </option>\r\n      <option name=\"PACKAGES_IMPORT_LAYOUT\">\r\n        <value>\r\n          <package name=\"\" alias=\"false\" withSubpackages=\"true\" />\r\n          <package name=\"java\" alias=\"false\" withSubpackages=\"true\" />\r\n          <package name=\"javax\" alias=\"false\" withSubpackages=\"true\" />\r\n          <package name=\"kotlin\" alias=\"false\" withSubpackages=\"true\" />\r\n          <package name=\"\" alias=\"true\" withSubpackages=\"true\" />\r\n        </value>\r\n      </option>\r\n      <option name=\"NAME_COUNT_TO_USE_STAR_IMPORT\" value=\"15\" />\r\n      <option name=\"NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS\" value=\"10\" />\r\n      <option name=\"IF_RPAREN_ON_NEW_LINE\" value=\"false\" />\r\n      <option name=\"CODE_STYLE_DEFAULTS\" value=\"KOTLIN_OFFICIAL\" />\r\n    </JetCodeStyleSettings>\r\n    <codeStyleSettings language=\"XML\">\r\n      <indentOptions>\r\n        <option name=\"CONTINUATION_INDENT_SIZE\" value=\"4\" />\r\n      </indentOptions>\r\n      <arrangement>\r\n        <rules>\r\n          <section>\r\n            <rule>\r\n              <match>\r\n                <AND>\r\n                  <NAME>xmlns:android</NAME>\r\n                  <XML_ATTRIBUTE />\r\n                  <XML_NAMESPACE>^$</XML_NAMESPACE>\r\n                </AND>\r\n              </match>\r\n            </rule>\r\n          </section>\r\n          <section>\r\n            <rule>\r\n              <match>\r\n                <AND>\r\n                  <NAME>xmlns:.*</NAME>\r\n                  <XML_ATTRIBUTE />\r\n                  <XML_NAMESPACE>^$</XML_NAMESPACE>\r\n                </AND>\r\n              </match>\r\n              <order>BY_NAME</order>\r\n            </rule>\r\n          </section>\r\n          <section>\r\n            <rule>\r\n              <match>\r\n                <AND>\r\n                  <NAME>.*:id</NAME>\r\n                  <XML_ATTRIBUTE />\r\n                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>\r\n                </AND>\r\n              </match>\r\n            </rule>\r\n          </section>\r\n          <section>\r\n            <rule>\r\n              <match>\r\n                <AND>\r\n                  <NAME>.*:name</NAME>\r\n                  <XML_ATTRIBUTE />\r\n                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>\r\n                </AND>\r\n              </match>\r\n            </rule>\r\n          </section>\r\n          <section>\r\n            <rule>\r\n              <match>\r\n                <AND>\r\n                  <NAME>name</NAME>\r\n                  <XML_ATTRIBUTE />\r\n                  <XML_NAMESPACE>^$</XML_NAMESPACE>\r\n                </AND>\r\n              </match>\r\n            </rule>\r\n          </section>\r\n          <section>\r\n            <rule>\r\n              <match>\r\n                <AND>\r\n                  <NAME>style</NAME>\r\n                  <XML_ATTRIBUTE />\r\n                  <XML_NAMESPACE>^$</XML_NAMESPACE>\r\n                </AND>\r\n              </match>\r\n            </rule>\r\n          </section>\r\n          <section>\r\n            <rule>\r\n              <match>\r\n                <AND>\r\n                  <NAME>.*</NAME>\r\n                  <XML_ATTRIBUTE />\r\n                  <XML_NAMESPACE>^$</XML_NAMESPACE>\r\n                </AND>\r\n              </match>\r\n              <order>BY_NAME</order>\r\n            </rule>\r\n          </section>\r\n          <section>\r\n            <rule>\r\n              <match>\r\n                <AND>\r\n                  <NAME>.*</NAME>\r\n                  <XML_ATTRIBUTE />\r\n                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>\r\n                </AND>\r\n              </match>\r\n              <order>ANDROID_ATTRIBUTE_ORDER</order>\r\n            </rule>\r\n          </section>\r\n          <section>\r\n            <rule>\r\n              <match>\r\n                <AND>\r\n                  <NAME>.*</NAME>\r\n                  <XML_ATTRIBUTE />\r\n                  <XML_NAMESPACE>.*</XML_NAMESPACE>\r\n                </AND>\r\n              </match>\r\n              <order>BY_NAME</order>\r\n            </rule>\r\n          </section>\r\n        </rules>\r\n      </arrangement>\r\n    </codeStyleSettings>\r\n    <codeStyleSettings language=\"kotlin\">\r\n      <option name=\"CODE_STYLE_DEFAULTS\" value=\"KOTLIN_OFFICIAL\" />\r\n      <option name=\"WRAP_ON_TYPING\" value=\"0\" />\r\n    </codeStyleSettings>\r\n  </code_scheme>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/codeStyles/Project.xml	(revision 6d577cfaf7ddd07ad936a905cd3fa71cbf7538a0)
++++ .idea/codeStyles/Project.xml	(date 1608624414170)
+@@ -3,18 +3,9 @@
+     <JetCodeStyleSettings>
+       <option name="PACKAGES_TO_USE_STAR_IMPORTS">
+         <value>
+-          <package name="java.util" alias="false" withSubpackages="false" />
+-          <package name="kotlinx.android.synthetic" alias="false" withSubpackages="true" />
+-          <package name="io.ktor" alias="false" withSubpackages="true" />
+-        </value>
+-      </option>
+-      <option name="PACKAGES_IMPORT_LAYOUT">
+-        <value>
+-          <package name="" alias="false" withSubpackages="true" />
+-          <package name="java" alias="false" withSubpackages="true" />
+-          <package name="javax" alias="false" withSubpackages="true" />
+-          <package name="kotlin" alias="false" withSubpackages="true" />
+-          <package name="" alias="true" withSubpackages="true" />
++          <package name="java.util" withSubpackages="false" static="false" />
++          <package name="kotlinx.android.synthetic" withSubpackages="true" static="false" />
++          <package name="io.ktor" withSubpackages="true" static="false" />
+         </value>
+       </option>
+       <option name="NAME_COUNT_TO_USE_STAR_IMPORT" value="15" />
+Index: app/src/main/kotlin/dev/jahir/frames/app/MainActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package dev.jahir.frames.app\r\n\r\nimport com.github.javiersantos.piracychecker.PiracyChecker\r\nimport dev.jahir.frames.ui.activities.FramesActivity\r\n\r\nclass MainActivity : FramesActivity() {\r\n\r\n    /**\r\n     * These things here have the default values. You can delete the ones you don't want to change\r\n     * and/or modify the ones you want to.\r\n     */\r\n    override val billingEnabled = true\r\n\r\n    override fun amazonInstallsEnabled(): Boolean = false\r\n    override fun checkLPF(): Boolean = true\r\n    override fun checkStores(): Boolean = true\r\n\r\n    /**\r\n     * This is your app's license key. Get yours on Google Play Dev Console.\r\n     * Default one isn't valid and could cause issues in your app.\r\n     */\r\n    override fun getLicKey(): String? = \"MIIBIjANBgkqhkiGgKglYGYGihLuihUuhhuBlouBkuiu\"\r\n\r\n    /**\r\n     * This is the license checker code. Feel free to create your own implementation or\r\n     * leave it as it is.\r\n     * Anyways, keep the 'destroyChecker()' as the very first line of this code block\r\n     * Return null to disable license check\r\n     */\r\n    override fun getLicenseChecker(): PiracyChecker? {\r\n        destroyChecker() // Important\r\n        return if (BuildConfig.DEBUG) null else super.getLicenseChecker()\r\n    }\r\n\r\n    override fun defaultTheme(): Int = R.style.MyApp_Default\r\n    override fun amoledTheme(): Int = R.style.MyApp_Default_Amoled\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/kotlin/dev/jahir/frames/app/MainActivity.kt	(revision 6d577cfaf7ddd07ad936a905cd3fa71cbf7538a0)
++++ app/src/main/kotlin/dev/jahir/frames/app/MainActivity.kt	(date 1608635690786)
+@@ -1,5 +1,7 @@
+ package dev.jahir.frames.app
+ 
++import android.view.View
++import android.widget.LinearLayout
+ import com.github.javiersantos.piracychecker.PiracyChecker
+ import dev.jahir.frames.ui.activities.FramesActivity
+ 
+@@ -34,4 +36,5 @@
+ 
+     override fun defaultTheme(): Int = R.style.MyApp_Default
+     override fun amoledTheme(): Int = R.style.MyApp_Default_Amoled
++
+ }
+\ No newline at end of file
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// TODO: Remove comment marks to enable\r\n/*\r\nbuildscript {\r\n    repositories {\r\n        maven { url 'https://plugins.gradle.org/m2/' }\r\n    }\r\n\r\n    dependencies {\r\n        classpath Plugins.oneSignal\r\n    }\r\n}\r\n\r\napply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'\r\n*/\r\n\r\napply plugin: 'com.android.application'\r\napply plugin: 'kotlin-android'\r\napply plugin: 'kotlin-android-extensions'\r\napply plugin: 'kotlin-kapt'\r\n\r\nandroid {\r\n    applicationVariants.all { variant ->\r\n        variant.outputs.all { output ->\r\n            outputFileName = defaultConfig.applicationId + \"-v${variant.versionName}-${variant.name}.apk\"\r\n        }\r\n    }\r\n\r\n    lintOptions {\r\n        abortOnError false\r\n        checkReleaseBuilds true\r\n        disable 'MissingTranslation', 'GoogleAppIndexingWarning'\r\n    }\r\n\r\n    compileSdkVersion Versions.targetSdk\r\n\r\n    defaultConfig {\r\n        manifestPlaceholders = [\r\n                onesignal_app_id               : OneSignal.appId,\r\n                onesignal_google_project_number: OneSignal.googleProjectNumber\r\n        ]\r\n        applicationId MyApp.appId\r\n        minSdkVersion Versions.minSdk\r\n        targetSdkVersion Versions.targetSdk\r\n        versionCode MyApp.version\r\n        versionName MyApp.versionName\r\n        vectorDrawables.useSupportLibrary = true\r\n        multiDexEnabled true\r\n        proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'\r\n        consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'\r\n\r\n        javaCompileOptions {\r\n            annotationProcessorOptions {\r\n                arguments = [\r\n                        \"room.schemaLocation\"  : \"$projectDir/schemas\".toString(),\r\n                        \"room.incremental\"     : \"true\",\r\n                        \"room.expandProjection\": \"true\"]\r\n            }\r\n        }\r\n    }\r\n\r\n    buildTypes {\r\n        release {\r\n            debuggable false\r\n            zipAlignEnabled true\r\n            minifyEnabled true\r\n            shrinkResources false\r\n            proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'\r\n            consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'\r\n        }\r\n    }\r\n\r\n    sourceSets {\r\n        main.java.srcDirs += 'src/main/kotlin'\r\n    }\r\n\r\n    packagingOptions {\r\n        pickFirst 'META-INF/core_debug.kotlin_module'\r\n        pickFirst 'META-INF/core_release.kotlin_module'\r\n        pickFirst 'META-INF/library_debug.kotlin_module'\r\n        pickFirst 'META-INF/library_release.kotlin_module'\r\n    }\r\n\r\n    compileOptions {\r\n        sourceCompatibility JavaVersion.VERSION_1_8\r\n        targetCompatibility JavaVersion.VERSION_1_8\r\n    }\r\n\r\n    kotlinOptions {\r\n        jvmTarget = '1.8'\r\n    }\r\n}\r\n\r\ndependencies {\r\n    implementation(Libs.frames) {\r\n        transitive = true\r\n    }\r\n    // TODO: Remove comment marks to enable\r\n    // implementation Libs.oneSignal\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build.gradle	(revision 6d577cfaf7ddd07ad936a905cd3fa71cbf7538a0)
++++ app/build.gradle	(date 1608624381955)
+@@ -96,4 +96,6 @@
+     }
+     // TODO: Remove comment marks to enable
+     // implementation Libs.oneSignal
++    implementation 'com.google.android.gms:play-services-ads:19.6.0'
++
+ }
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// Top-level build file where you can add configuration options common to all sub-projects/modules.\r\n\r\nbuildscript {\r\n    repositories {\r\n        google()\r\n        jcenter()\r\n        mavenCentral()\r\n        maven { url 'https://jitpack.io' }\r\n        maven { url \"https://oss.sonatype.org/content/repositories/snapshots/\" }\r\n        maven { url 'https://plugins.gradle.org/m2/' }\r\n    }\r\n\r\n    dependencies {\r\n        classpath Plugins.android\r\n        classpath Plugins.kotlin\r\n    }\r\n}\r\n\r\nallprojects {\r\n    repositories {\r\n        google()\r\n        jcenter()\r\n        mavenCentral()\r\n        maven { url 'https://jitpack.io' }\r\n        maven { url \"https://oss.sonatype.org/content/repositories/snapshots/\" }\r\n        maven { url 'https://plugins.gradle.org/m2/' }\r\n    }\r\n}\r\n\r\ntask clean(type: Delete) {\r\n    delete rootProject.buildDir\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- build.gradle	(revision 6d577cfaf7ddd07ad936a905cd3fa71cbf7538a0)
++++ build.gradle	(date 1608621770692)
+@@ -1,4 +1,6 @@
+-// Top-level build file where you can add configuration options common to all sub-projects/modules.
++ext {
++    var = '4.0.1'
++}// Top-level build file where you can add configuration options common to all sub-projects/modules.
+ 
+ buildscript {
+     repositories {
+@@ -13,6 +15,7 @@
+     dependencies {
+         classpath Plugins.android
+         classpath Plugins.kotlin
++        classpath 'com.android.tools.build:gradle:4.1.0'
+     }
+ }
+ 
